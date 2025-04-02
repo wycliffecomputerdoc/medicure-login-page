@@ -3,7 +3,7 @@ import React from "react";
 import AuthLayout from "@/components/layouts/AuthLayout";
 import AuthForm from "@/components/auth/AuthForm";
 import { useToast } from "@/hooks/use-toast";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const SignIn: React.FC = () => {
   const { toast } = useToast();
@@ -56,12 +56,12 @@ const SignIn: React.FC = () => {
       />
       
       <div className="mt-4 text-center">
-        <a 
-          href="/forgot-password" 
+        <Link 
+          to="/forgot-password" 
           className="text-medical-red text-sm hover:underline"
         >
           Forgot your password?
-        </a>
+        </Link>
       </div>
     </AuthLayout>
   );
