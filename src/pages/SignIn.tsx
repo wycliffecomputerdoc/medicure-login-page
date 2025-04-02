@@ -5,7 +5,7 @@ import AuthForm from "@/components/auth/AuthForm";
 import { useToast } from "@/hooks/use-toast";
 import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Mail, Google } from "lucide-react";
+import { Mail, ExternalLink } from "lucide-react";
 
 const SignIn: React.FC = () => {
   const { toast } = useToast();
@@ -72,7 +72,7 @@ const SignIn: React.FC = () => {
           className="w-full border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"
           onClick={handleGoogleSignIn}
         >
-          <Google className="mr-2 h-4 w-4" />
+          <ExternalLink className="mr-2 h-4 w-4" />
           Continue with Google
         </Button>
         
