@@ -30,20 +30,20 @@ const AuthLayout: React.FC<AuthLayoutProps> = ({
           </p>
           <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="bg-white/10 p-4 rounded-lg">
-              <h3 className="font-semibold mb-2">Expert Doctors</h3>
-              <p className="text-sm">Access to certified medical professionals</p>
+              <h3 className="font-semibold mb-2">Online Consultations</h3>
+              <p className="text-sm">Connect with doctors from the comfort of your home</p>
             </div>
             <div className="bg-white/10 p-4 rounded-lg">
-              <h3 className="font-semibold mb-2">24/7 Support</h3>
-              <p className="text-sm">Round-the-clock medical assistance</p>
+              <h3 className="font-semibold mb-2">Health Monitoring</h3>
+              <p className="text-sm">Track your vital health metrics in real-time</p>
             </div>
             <div className="bg-white/10 p-4 rounded-lg">
-              <h3 className="font-semibold mb-2">Medical Records</h3>
-              <p className="text-sm">Secure storage of your health data</p>
+              <h3 className="font-semibold mb-2">Medication Reminders</h3>
+              <p className="text-sm">Never miss your medication schedule</p>
             </div>
             <div className="bg-white/10 p-4 rounded-lg">
-              <h3 className="font-semibold mb-2">Appointments</h3>
-              <p className="text-sm">Easy scheduling with your doctors</p>
+              <h3 className="font-semibold mb-2">Health Education</h3>
+              <p className="text-sm">Access to health tips and medical information</p>
             </div>
           </div>
         </div>
